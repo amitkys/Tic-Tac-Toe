@@ -1,5 +1,5 @@
 interface Prop {
-  value: string;
+  value: string | null;
   onSquareClick?: () => void;
 }
 export function Square({ value, onSquareClick }: Prop) {
